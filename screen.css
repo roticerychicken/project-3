@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-
+	background-color:#696969;
 
 }
 ol, ul {
@@ -50,6 +50,9 @@ html {
 	text-size-adjust: 100%;
 	min-height: 100%;
 	background-color: gray;
+}
+.header-back {
+	background-color: blue;
 }
 h1 {
 
