@@ -53,9 +53,7 @@ html {
 	background-color: gray;
 	display: flex;
 }
-li {
-	margin:1em;
-}
+
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -78,9 +76,22 @@ img {
    	display: flex;
 
 }
-li {
-	margin:1.5em;
+ul {	
 	font-size: 1.5em;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+
+	left: 50%;
+
+	margin-top: 1em;
+	color: white;
+	padding-bottom: 1em;
+
+
+}
+ul li {
+	padding: 0.5em;
 }
 p {
 	margin:1.5em;
@@ -135,9 +146,26 @@ p {
 	background-color:#3F4040;
 	padding-top: 1em;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 462px) {
     body {
         font-size: 15px;
     }
+    .list {
+    	text-align: center;
+    }
+    li{	display: inline-block;
+    	margin: 5px;
+    	padding-left: 1em;
+    	vertical-align: top;
+    }
+    .creator {
+		background-color: #3F4040;
+		margin-top: 0px;
+		padding-top: 1.5em;
+		padding-bottom: 2px;
+		text-indent:2em; 
+		text-align: center;
+		color: black;
+	}
 }
 
