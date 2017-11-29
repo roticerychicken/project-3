@@ -47,6 +47,10 @@ table {
 li,a:hover {
   color: #2693ff;
 }
+li,a {
+	text-decoration: none;
+	text-align: center;
+}
 
 html {
 	-moz-text-size-adjust: 100%;
@@ -82,10 +86,11 @@ ol {
 	color: white;
 	padding-bottom: 1em;
 }
+
 img {
 	
-	height: 11.391em;
-	width: 11.391em;
+	height: 13.391em;
+	width: 13.391em;
 	margin-right: auto;
 	margin-left: auto;
 	left: 50%;
