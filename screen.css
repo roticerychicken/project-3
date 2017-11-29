@@ -95,7 +95,8 @@ img {
 	margin-left: auto;
 	left: 50%;
    	display: flex;
-
+   	padding: 1em;
+   	
 }
 ul {	
 	font-size: 1.5em;
