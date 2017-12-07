@@ -59,149 +59,37 @@ html {
 	text-size-adjust: 100%;
 	min-height: 100%;
 	background-color: gray;
-	
-}
 
+	display: flex;
+
+}
 h1 {
-	font-size: 1.5em;
 	font-weight: bold;
-	margin-right: auto;
-	margin-left: auto;
-
-	left: 50%;
-
-	margin-top: 1em;
-	color: white;
-
-}
-ol {
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-right: auto;
-	margin-left: auto;
-
-	left: 50%;
-
-	margin-top: 2em;
-	color: white;
-	padding-bottom: 1em;
-}
-
-img {
-	
-	height: 13.391em;
-	width: 13.391em;
-	margin-right: auto;
-	margin-left: auto;
-	left: 50%;
-   	display: flex;
-   	padding: 1em;
-   	
-}
-ul {	
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-right: auto;
-	margin-left: auto;
-
-	left: 50%;
-
-	margin-top: 2em;
-	color: white;
-	padding-bottom: 1em;
-
-}
-ul li {
-	padding: 0.667em;
+	text-align: center;
+	font-size: 2em;
 }
 p {
-	margin:1.5em;
-	font-size: 1.5em;
-	text-indent:1em;  
-    display: flex;
-    text-align: justify;
-}
-a {
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-right: auto;
-	margin-left: auto;
+	font-size: 1.2em; 
+	line-height: 1.2em;
+	text-indent: 1em;
+	text-align: justify;
 
-	left: 50%;
-
-	margin-top: 1em;
-	color: white;
-	padding-bottom: 1em;
+	padding:5px;  
+	margin-top:5px;  
+	margin-bottom:5px;  
+	margin-left:20px;  
+	margin-right:20px;
 }
+img {
+	display: block;
 
-.header-back {
-	display: flex;
-  	height: 5.063em;
-}
-.paragraph {
-
-	display: flex;
-    background-color: #353937;
-}
-.list {
-   text-align: center;
-  display: flex;
-  background: #3F4040;
-}
-.image-class {
-	height: 11.391em;
-	padding: 3.375em;
-    background-color: #141414;
-}
-
-.paragraph-header {
-	margin-top: 0px;
-	text-align: center;
-	padding-top: 1em;
-
-	background-color:#353937;
-	color: darkgray;
-	display: flex;
 
 }
-.creator {
-	background-color: #3F4040;
-	margin-top: 0px;
-	padding-top: 3.375em;
-	padding-bottom: 0.198em;
-	text-indent:2em;  
-	color: black;
-	display: flex;
-	
-}
-.paragraph-header-2 {
-	margin-top: 0px;
-	text-align: center;
-	color: darkgray;
-	background-color:#3F4040;
-	padding-top: 1em;
-}
+
 @media only screen and (max-width: 462px) {
     body {
         font-size: 1.5em;
     }
-    .list {
-    	text-align: center;
-    }
-    li {	
-    	display: inline-block;
-    	margin: 2em;
-    	padding-left: 1em;
-    	vertical-align: top;
-    }
-    .creator {
-		background-color: #3F4040;
-		margin-top: 0px;
-		padding-top: 1.5em;
-		padding-bottom: 2.25px;
-		text-indent:2.25em; 
-		text-align: center;
-		color: black;
-	}
+    
 }
 
