@@ -25,7 +25,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	background-color:#696969;
-
+	
+	padding-top: 2.444em; /* 44px / 18px = 2.444em two gridlines */
+	padding-left: 1.222em; /* 22px / 18px = 1.222 */
+  padding-right: 1.222em; /* 22px / 18px = 1.222 */
 }
 
 ol, ul {
@@ -51,22 +54,18 @@ li,a {
 	text-decoration: none;
 	text-align: center;
 }
-
 html {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	min-height: 100%;
-	background-color: gray;
 
-	display: flex;
-
+	margin: auto;
 }
 h1 {
 	font-weight: bold;
-	text-align: center;
-	font-size: 2em;
+   text-align: center;
 }
 p {
 	font-size: 1.2em; 
@@ -81,11 +80,11 @@ p {
 	margin-right:20px;
 }
 img {
-	display: block;
-
-
+   display: block;
+    margin: auto;
+    width: 30%;
+    height: 30%;
 }
-
 @media only screen and (max-width: 462px) {
     body {
         font-size: 1.5em;
