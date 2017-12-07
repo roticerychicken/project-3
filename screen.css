@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	background-color:#696969;
+	background-color:#414444;
 	
 	padding-top: 2.444em; /* 44px / 18px = 2.444em two gridlines */
 	padding-left: 1.222em; /* 22px / 18px = 1.222 */
@@ -56,6 +56,8 @@ li,a {
 	text-align: center;	
 	font-weight: bold;
 	list-style: none;
+	padding: 10px;
+	color: #1A1B1B;
 }
 body {
 	position: relative;
@@ -63,6 +65,7 @@ body {
 }
 ol {
 	font-size: 2em;
+
 }
 html {
 	-moz-text-size-adjust: 100%;
@@ -71,13 +74,14 @@ html {
 	text-size-adjust: 100%;
 	min-height: 100%;
 	margin: auto;
-	display: flex;
+	
 }
 h1 {
 	font-weight: bold;
 	font-size: 2em;
    text-align: center;
    padding: 0.2em;
+   background-color: #2A5A67;
 }
 p {
 	font-size: 1.2em; 
@@ -99,6 +103,21 @@ img {
 
     padding: 1em;
 
+}
+#page-select {
+	background-color: #5E95B6;
+	list-style: none;
+	display: block;
+}
+#about {
+	background-color: #667073;
+}
+#page-content {
+	background-color: #628B97;
+}
+#project-content {
+	padding: 5px;
+	background-color: blue;
 }
 @media only screen and (max-width: 600px) {
     body {
