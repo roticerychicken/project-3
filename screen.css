@@ -28,7 +28,8 @@ body {
 	
 	padding-top: 2.444em; /* 44px / 18px = 2.444em two gridlines */
 	padding-left: 1.222em; /* 22px / 18px = 1.222 */
-  padding-right: 1.222em; /* 22px / 18px = 1.222 */
+    padding-right: 1.222em; /* 22px / 18px = 1.222 */
+    font-size: 1.5em;
 }
 
 ol, ul {
@@ -52,7 +53,16 @@ li,a:hover {
 }
 li,a {
 	text-decoration: none;
-	text-align: center;
+	text-align: center;	
+	font-weight: bold;
+	list-style: none;
+}
+body {
+	position: relative;
+	display: block;
+}
+ol {
+	font-size: 2em;
 }
 html {
 	-moz-text-size-adjust: 100%;
@@ -60,12 +70,14 @@ html {
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	min-height: 100%;
-
 	margin: auto;
+	display: flex;
 }
 h1 {
 	font-weight: bold;
+	font-size: 2em;
    text-align: center;
+   padding: 0.2em;
 }
 p {
 	font-size: 1.2em; 
@@ -73,22 +85,41 @@ p {
 	text-indent: 1em;
 	text-align: justify;
 
-	padding:5px;  
-	margin-top:5px;  
-	margin-bottom:5px;  
-	margin-left:20px;  
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:20px;
 	margin-right:20px;
 }
 img {
-   display: block;
+    display: block;
     margin: auto;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
+
+    padding: 1em;
+
 }
-@media only screen and (max-width: 462px) {
+@media only screen and (max-width: 600px) {
     body {
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+     p {
+    	font-size: 1em;
+    }
+    ol {
+    	font-size: 2em;
+    }
+}
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 1em;
+    }
+    
+    img {
+    	width: 15em;
+    	height: 15em;
+
     }
     
 }
-
