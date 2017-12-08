@@ -152,6 +152,12 @@ img {
 		font-size: 20px;
 		padding: 30px;
 	}
+	#project-content img {
+    	width: 25em;
+    	height: 25em;
+
+    }
+
 }
 @media only screen and (min-width: 600px) {
     body {
@@ -162,9 +168,13 @@ img {
     	padding: 1em;
     }
     img {
-    	width: 15em;
-    	height: 15em;
+    	width: 5em;
+    	height: 10em;
 
     }
-    
+    #main-image img {
+    	width: 15em;
+    	height: 15em;
+    }
+	  
 }
