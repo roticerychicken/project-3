@@ -65,9 +65,9 @@ li,a {
 	padding: 10px;
 	color: #1A1B1B;
 	 
-    padding:5px;
-	margin-top:5px;
-	margin-bottom:5px;
+    padding:0.225em;
+	margin-top:0.225em;
+
 	margin-left:20px;
 	margin-right:20px;
 
@@ -80,12 +80,12 @@ body {
 	display: block;
 }
 ul {
-	font-size: 25px;
+	font-size: 1.5em;
 	padding: 35px;
 }
 
 ol {
-	font-size: 2em;
+	font-size: 2.25em;
 }
 html {
 	-moz-text-size-adjust: 100%;
@@ -99,23 +99,23 @@ html {
 }
 h1 {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 2.25em;
    text-align: center;
    padding: 0.2em;
    background-color: #2A5A67;
 }
 p {
-	font-size: 1.2em; 
-	line-height: 1.2em;
-	text-indent: 1em;
+	font-size: 1em; 
+	line-height: 1.5em;
+	text-indent: 1.5em;
 	text-align: justify;
 	font-weight: bold;
 	color: gray;
-	padding:5px;
-	margin-top:5px;
-	margin-bottom:5px;
-	margin-left:20px;
-	margin-right:20px;
+	padding:1em;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-left:1.5em;
+	margin-right:1.5em;
 }
 img {
     display: block;
@@ -146,35 +146,37 @@ img {
     	font-size: 1em;
     }
     ol {
-    	font-size: 2em;
+    	font-size: 2.25em;
     }
     ul {
-		font-size: 20px;
-		padding: 30px;
+		font-size: 1.5em;
+		padding: 2.25em;
 	}
-	#project-content img {
-    	width: 25em;
-    	height: 25em;
 
+	#project-content ul li img {
+    	
+    	width: 5.063em;
+    	height: 7.594em;
+
+    
     }
-
 }
 @media only screen and (min-width: 600px) {
     body {
         font-size: 1em;
     }
     p {
-    	font-size: 2em;
+    	font-size: 1.5em;
     	padding: 1em;
     }
     img {
-    	width: 5em;
-    	height: 10em;
-
+    	width: 5.063em;
+    	height: 7.594em;
     }
     #main-image img {
-    	width: 15em;
-    	height: 15em;
+    	width: 17.086em;
+    	height: 17.086em;
     }
+  
 	  
 }
