@@ -50,6 +50,12 @@ table {
 }
 li,a:hover {
   color: #2693ff;
+  
+ 
+}
+nav {
+	margin: auto;
+	background-color: black;
 }
 li,a {
 	text-decoration: none;
@@ -58,14 +64,28 @@ li,a {
 	list-style: none;
 	padding: 10px;
 	color: #1A1B1B;
+	 
+    padding:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:20px;
+	margin-right:20px;
+
+}
+li > a {
+	color: blue;
 }
 body {
 	position: relative;
 	display: block;
 }
+ul {
+	font-size: 25px;
+	padding: 35px;
+}
+
 ol {
 	font-size: 2em;
-
 }
 html {
 	-moz-text-size-adjust: 100%;
@@ -74,7 +94,8 @@ html {
 	text-size-adjust: 100%;
 	min-height: 100%;
 	margin: auto;
-	
+
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 h1 {
 	font-weight: bold;
@@ -88,7 +109,8 @@ p {
 	line-height: 1.2em;
 	text-indent: 1em;
 	text-align: justify;
-
+	font-weight: bold;
+	color: gray;
 	padding:5px;
 	margin-top:5px;
 	margin-bottom:5px;
@@ -104,13 +126,10 @@ img {
     padding: 1em;
 
 }
-#page-select {
-	background-color: #5E95B6;
-	list-style: none;
-	display: block;
-}
+
 #about {
-	background-color: #667073;
+	background-color: black;
+	padding-bottom: 10px;
 }
 #page-content {
 	background-color: #628B97;
@@ -129,12 +148,19 @@ img {
     ol {
     	font-size: 2em;
     }
+    ul {
+		font-size: 20px;
+		padding: 30px;
+	}
 }
 @media only screen and (min-width: 600px) {
     body {
         font-size: 1em;
     }
-    
+    p {
+    	font-size: 2em;
+    	padding: 1em;
+    }
     img {
     	width: 15em;
     	height: 15em;
